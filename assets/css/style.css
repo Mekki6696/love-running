@@ -1,4 +1,4 @@
-/* more general styles */
+/* Asterisk wildcard selector to override default browser styles */
 *{
     margin:0;
     padding:0;
@@ -6,6 +6,14 @@
     box-sizing:border-box;
 }
 
+/* general style */
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    /* generic project styles */
+    color:#3a3a3a;
+}
 
 /* header*/
 header{
@@ -14,6 +22,8 @@ header{
 /* main*/
 main{
     background-color:lightblue;
+    /* make main element take up any surplus space to push the footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer*/
