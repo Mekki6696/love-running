@@ -157,7 +157,7 @@ main {
     /* this will not wrap on screens of less than 400px. Each div will exspand to fill the avalaible space */
     flex-basis: 200px;
     flex-grow: 1;
-    /* creats grid of meetup times dives over the background */
+    /* creats grid of meetup times divs over the background */
     border: 2px solid white;
 }
 
